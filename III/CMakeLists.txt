@@ -1,0 +1,14 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
+PROJECT(Corretor)
+
+SET(CMAKE_CXX_STANDARD 11)
+SET (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-O3")
+
+INCLUDE_DIRECTORIES(include/)
+
+ADD_EXECUTABLE(
+    prog
+    src/main.cpp
+    src/App.cpp
+    
+)
